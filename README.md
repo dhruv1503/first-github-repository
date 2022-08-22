@@ -6,6 +6,7 @@
 3. commit : Saves our files in the git.
 4. push : Upload git command to remote repo like github, gitlab
 5. pull : Download changes from remote repository to the local machine, opposite of push 
+6. log : This git command is used to see the last git requests 
 
 ## First edit from my local text editor!!!! 
  Now I realize the scare of git is sometimes way more than the complexity of using Git and Github repositories itself!!
