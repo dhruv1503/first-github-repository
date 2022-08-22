@@ -11,3 +11,9 @@
 
 ## First edit from my local text editor!!!! 
  Now I realize the scare of git is sometimes way more than the complexity of using Git and Github repositories itself!!
+
+ ## How to create a new branch?
+ A new branch is usually made to develop side features and not make them interfere with the original code so as to not break it from any error. There can be other use cases too. Some commands are :-
+ 
+ 1. branch : It is used to show the developer in which branch the local machine connected to.
+ 2. checkout - <branch-name> : It is used to change to the "branch-name" branch. It works only if the branch has been created previously.  
