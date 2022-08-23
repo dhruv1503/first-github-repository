@@ -26,10 +26,34 @@
  ## How to create a new branch?
  A new branch is usually made to develop side features and not make them interfere with the original code so as to not break it from any error. There can be other use cases too. Some commands are :-
 
- 1. checkout -b <branch-1> : It is used to create a new branch with name "branck-1" (ignore those brackets). 
+ 1. checkout -b <branch-1> : It is used to create a new branch with name "branch-1" (ignore those brackets). 
  
  2. branch : It is used to show the developer in which branch the local machine connected to.
  
  3. checkout - <branch-name> : It is used to change to the "branch-name" branch. It works only if the branch has been created previously.  
  
  4. diff <branch-name> : It tells us the difference in entries between the branch we are in presently to the "branch-name".
+
+ ## How to merge the branch difference?
+ We shall arrive at a situation where we want to add our final changes from branch to the main branch in the repo. Let's figure out how to merge our changes to main branch of repo
+
+ 1. As soon as we push our changes to Github regarding the sub branch (here, branch-name) our github website notifies us of some git push made to the sub branch and advices us to pull it to merge via a button. Click that button (green button at the time of creating the file).
+
+ 2. Add some comments when it asks and if you want or proceed anyway.
+
+ 3. If you are on your own git and are satisfied with changes, click on merge. 
+ 
+ If you are on collaboration work you might not be able to do that directly, the participants, contributors and authors of that repo might evaluate your commits, and/or add comments to changes, if any. When you resolve those changes and commit again, then the merge may proceed. 
+
+## How to pull the merged main branch?
+After merge, in your local machine you might not be able to see changes in main branch, after merging. Thats because the changes have been made on github and git and not on your local machine. In order to reflect those changes in local machine. The command is as follows.
+
+pull origin main : Main being the branch where merge has been made.
+
+ ## How to delete a branch?
+ After we merge our "branch-name" with "main" branch we shall no longer require the need of "branch-name", so in order to delete the branch our command shall be
+
+ branch -d <branch-name> : This will delete the branch named as "branch-name".
+
+
+
