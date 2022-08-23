@@ -55,5 +55,13 @@ pull origin main : Main being the branch where merge has been made.
 
  branch -d <branch-name> : This will delete the branch named as "branch-name".
 
+ ## Topics for future 
+ 1. Merge Conflicts
+ 2. How to undo out commits and add commands?
+ 3. Forking in Git
+
+
+ I'm learning these commands from www.freecodecamp.org and their youtube video link is https://www.youtube.com/watch?v=RGOj5yH7evk. If you feel don't want to spend around 1 hour watching the video and making notes and side by side. You can always refer this README. Thanks  
+
 
 
